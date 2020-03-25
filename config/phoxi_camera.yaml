@@ -1,4 +1,4 @@
-scanner_id: "InstalledExamples-PhoXi-example"
+scanner_id: "2019-09-030-LC3" #"InstalledExamples-PhoXi-example"
 frame_id: "PhoXi3Dscanner_sensor"
 latch_tipics: true
 topic_queue_size: 1

@@ -17,7 +17,8 @@ PhoXiInterface phoxi_interface;
 
 class PhoXiInterfaceTest : public testing::Test {
 public:
-    const string camera_ID = "InstalledExamples-PhoXi-example";
+    //const string camera_ID = "InstalledExamples-PhoXi-example";
+    const string camera_ID = "2019-09-030-LC3";    
 
     static void SetUpTestCase(){
         //test constructor only once
@@ -35,7 +36,8 @@ public:
 
 class PhoXiInterfaceTestConnection : public testing::Test {
 public:
-    const string camera_ID = "InstalledExamples-PhoXi-example";
+    //const string camera_ID = "InstalledExamples-PhoXi-example";
+    const string camera_ID = "2019-09-030-LC3";    
     //PhoXiInterface phoxi_interface;
 
     static void SetUpTestCase(){
